@@ -26,7 +26,6 @@ function App() {
     setNotes([ ...notes, formData ]);
     setFormData(initialFormState);
   }
-
   async function deleteNote({ id }) {
     const newNotesArray = notes.filter(note => note.id !== id);
     setNotes(newNotesArray);
