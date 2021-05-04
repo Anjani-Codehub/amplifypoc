@@ -16,5 +16,23 @@
         "amplifypoc58254bc9": {}
       }
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifypoc-dev-92048-authRole",
+      "UnauthRoleArn": "arn:aws:iam::862001617225:role/amplify-amplifypoc-dev-92048-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::862001617225:role/amplify-amplifypoc-dev-92048-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifypoc-dev-92048-deployment",
+      "UnauthRoleName": "amplify-amplifypoc-dev-92048-unauthRole",
+      "StackName": "amplify-amplifypoc-dev-92048",
+      "StackId": "arn:aws:cloudformation:us-east-1:862001617225:stack/amplify-amplifypoc-dev-92048/8b4803e0-acdb-11eb-93a8-0a374cd00e27",
+      "AmplifyAppId": "d29xcbi72q55b2"
+    },
+    "categories": {
+      "auth": {
+        "amplifypoc58254bc9": {}
+      }
+    }
   }
 }

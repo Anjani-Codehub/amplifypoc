@@ -19,7 +19,6 @@ function App() {
     const apiData = await API.graphql({ query: listNotes });
     setNotes(apiData.data.listNotes.items);
   }
-
   async function createNote() {
     if (!formData.name || !formData.description) return;
     await API.graphql({ query: createNoteMutation, variables: { input: formData } });
