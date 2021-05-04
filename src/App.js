@@ -62,5 +62,4 @@ function App() {
     </div>
   );
 }
-
 export default withAuthenticator(App);
