@@ -32,7 +32,6 @@ function App() {
     setNotes(newNotesArray);
     await API.graphql({ query: deleteNoteMutation, variables: { input: { id } }});
   }
-
   return (
     <div className="App">
       <h1>My Notes App</h1>
